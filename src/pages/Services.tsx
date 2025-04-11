@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import CTASection from '@/components/CTASection';
 import ServicesSection from '@/components/ServicesSection';
-import { Lightbulb, Settings, Tool, Zap, Clock, ShieldCheck } from 'lucide-react';
+import { Lightbulb, Settings, Wrench, Zap, Clock, ShieldCheck } from 'lucide-react';
 
 const serviceDetails = [
   {
@@ -34,7 +34,7 @@ const serviceDetails = [
   },
   {
     id: 3,
-    icon: <Tool className="h-16 w-16 text-led-blue" />,
+    icon: <Wrench className="h-16 w-16 text-led-blue" />,
     title: "LED Strip Fixing",
     description: "We repair and restore LED strip lighting for architectural, decorative, and accent applications. Our specialists can fix connection issues, replace damaged sections, and restore full functionality to your LED strip installations.",
     features: [

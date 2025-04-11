@@ -1,5 +1,5 @@
 
-import { Lightbulb, Settings, Tool, Zap, Clock, ShieldCheck } from 'lucide-react';
+import { Lightbulb, Settings, Wrench, Zap, Clock, ShieldCheck } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 const services = [
@@ -14,7 +14,7 @@ const services = [
     description: "Regular maintenance services for commercial LED lighting systems."
   },
   {
-    icon: <Tool className="h-10 w-10 text-led-blue" />,
+    icon: <Wrench className="h-10 w-10 text-led-blue" />,
     title: "LED Strip Fixing",
     description: "Repair and replacement services for decorative LED strip lighting."
   },
